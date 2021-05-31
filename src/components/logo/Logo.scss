@@ -1,7 +1,16 @@
 @import "../../shared/variables.scss";
 
+
 .logo {
-    stroke: $brand-red;
-    height: 129.44px;
-    width: 80px;
+    z-index: 99;
+    transition: all 120ms;
+    svg {
+        stroke: $brand-red;
+        height: 129.44px;
+        width: 80px;
+        z-index: 9;
+    }
+    &:hover {
+        transform: scale(1.2);
+    }
 }
