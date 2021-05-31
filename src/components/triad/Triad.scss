@@ -1,0 +1,13 @@
+@import "../../shared/variables.scss";
+
+svg.triad {
+    position: absolute;
+    overflow: visible;
+    
+    circle {
+        fill: transparent;
+        stroke-width: 1px;
+        stroke: $brand-red;
+        opacity: 0.4;
+    }
+}
