@@ -18,4 +18,4 @@ jobs:
         username: ${{ secrets.FTP_USER }}
         password: ${{ secrets.FTP_PASSWORD }}
         server-dir: public_html/www.acaruso.com.br/
-        local-dir: ./dist/
+        local-dir: dist/
