@@ -1,9 +1,8 @@
-@import "../../shared/variables.scss";
-
+@import '../../shared/variables.scss';
 
 .logo {
-    z-index: 99;
     transition: all 120ms;
+    position: absolute;
     svg {
         stroke: $brand-red;
         height: 129.44px;

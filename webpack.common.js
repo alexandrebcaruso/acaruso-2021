@@ -23,6 +23,21 @@ module.exports = {
                     "sass-loader",
                 ],
             },
+            {
+                test: /\.less$/,
+                use: [
+                    { loader: "style-loader" },
+                    { loader: "css-loader" },
+                    {
+                        loader: "less-loader",
+                        options: {
+                            lessOptions: {
+                                javascriptEnabled: true //This is important!
+                            }
+                        }
+                    },
+                ]
+            },
         ],
     },
     plugins: [

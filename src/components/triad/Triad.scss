@@ -1,8 +1,8 @@
-@import "../../shared/variables.scss";
+@import '../../shared/variables.scss';
 
 svg.triad {
     position: absolute;
-    overflow: visible;
+    overflow: visible !important;
     
     circle {
         fill: transparent;
